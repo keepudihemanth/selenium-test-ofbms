@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Flight Booking Test Suite" verbose="2">
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.test.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Registration Tests">
+        <classes>
+            <class name="com.test.tests.RegisterTest"/>
+        </classes>
+    </test>
+
+    <test name="Flight Search Tests">
+        <classes>
+            <class name="com.test.tests.FlightSearchTest"/>
+        </classes>
+    </test>
+
+    <test name="Admin Panel Tests">
+        <classes>
+            <class name="com.test.tests.AdminTest"/>
+        </classes>
+    </test>
+    
+</suite>
